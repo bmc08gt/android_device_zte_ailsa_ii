@@ -42,6 +42,8 @@ on init
     # Support legacy paths
     symlink /sdcard /storage/sdcard0
 
+    write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
+
 on fs
     wait /dev/block/bootdevice
     mount_all fstab.qcom
