@@ -11,7 +11,8 @@ PRODUCT_COPY_FILES += \
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
-    libxml2
+    libxml2 \
+    libprotobuf-cpp-full
 
 # RIL Properties
 PRODUCT_PROPERTY_OVERRIDES += \
