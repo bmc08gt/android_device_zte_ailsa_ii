@@ -1,7 +1,10 @@
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8996 \
-    libcurl
+    libcurl \
+    libgnsspps \
+    libloc_api_v02 \
+    libloc_ds_api
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/flp.conf:system/etc/flp.conf \
